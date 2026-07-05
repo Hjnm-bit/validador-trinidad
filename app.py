@@ -128,7 +128,7 @@ VALIDADOR URBANÍSTICO - TRINIDAD (Decreto 0884)
 3. ESTADO DEL RETIRO POSTERIOR
 - Ocupación propuesta: {largo_ocupado_real:.1f} m
 - Límite máximo edificable: {largo_edificable_max:.1f} m
-- Infracción por invasión: {"SÍ" si largo_ocupado_real > largo_edificable_max else "NO"}
+- Infracción por invasión: {"SÍ" if largo_ocupado_real > largo_edificable_max else "NO"}
 
 * Nota: Este reporte es de carácter informativo y no sustituye la validación técnica oficial de la Intendencia.
 """
